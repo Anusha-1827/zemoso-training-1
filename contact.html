@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Anusha Reddy</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <header>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="assets/profile photo.jpeg" class="logo-image" alt="Profile" />
+      <div class="logo-info">
+        <div class="logo-name">Anusha Reddy</div>
+        <div class="logo-desc">Portfolio</div>
+      </div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html"class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+
+<main class="section-card">
+  <h2 class="section-title">Contact Me</h2>
+
+  <form class="contact-form"
+        action="mailto:anushareddyanki@gmail.com"
+        method="POST"
+        enctype="text/plain">
+        
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="4" placeholder="Message" required></textarea>
+    <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" />
+    <button type="submit">Send Message</button>
+  </form>
+</main>
+
+<footer class="footer">
+   Thanking you for visting @ Anusha Reddy
+</footer>
+</body>
+</html>
